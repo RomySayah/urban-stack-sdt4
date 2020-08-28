@@ -1,7 +1,6 @@
 const express = require('express');
 const Datastore = require('nedb');
-require('dotenv').config();
-console.log(process.env);
+
 
 
 const app = express();
